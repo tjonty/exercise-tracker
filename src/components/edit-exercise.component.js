@@ -85,7 +85,7 @@ export default class EditExercise extends Component {
             .then(res => console.log(res.data))
             .catch((err) => console.log(err));
 
-        window.location = '/exercise-tracker/';
+        window.location = '/exercise-tracker';
     }
 
     render() {
