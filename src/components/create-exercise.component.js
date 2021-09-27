@@ -76,7 +76,7 @@ export default class CreateExercise extends Component {
             .then(
                 res => {
                     console.log(res.data)
-                    window.location = '/';
+                    window.location = '/exercise-tracker/';
                 })
             .catch((err) => console.log(err));
 
