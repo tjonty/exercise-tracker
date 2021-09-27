@@ -14,9 +14,9 @@ function App() {
     <div className="container">
       <Navbar />
       <br/>
-        <Route path="exercise-tracker/" exact component={ExercisesList} />
-        <Route path="exercise-tracker/edit/:id" component={EditExercise} />
-        <Route path="exercise-tracker/create" component={CreateExercise} />
+        <Route path="/exercise-tracker/" exact component={ExercisesList} />
+        <Route path="/exercise-tracker/edit/:id" component={EditExercise} />
+        <Route path="/exercise-tracker/create" component={CreateExercise} />
         <Route path="/exercise-tracker/user" component={CreateUser} />
       </div>
     </Router>
